@@ -19,8 +19,9 @@ pipeline:
           cloneCodebase: true
           caching:
             enabled: true
+            paths: []
           buildIntelligence:
-            enabled: true
+            enabled: false
           platform:
             os: Linux
             arch: Amd64
