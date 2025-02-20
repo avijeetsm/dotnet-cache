@@ -23,7 +23,7 @@ pipeline:
           buildIntelligence:
             enabled: false
           platform:
-            os: Linux
+            os: Windows
             arch: Amd64
           runtime:
             type: Cloud
